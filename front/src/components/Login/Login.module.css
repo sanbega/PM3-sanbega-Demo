@@ -1,0 +1,121 @@
+.fondo{
+  height: 100%;
+  width: 100%;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Estilos para el header */
+.header {
+  background-color: #0e0afa;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 8px 8px 0 0;
+}
+
+.main {
+  padding: 2rem;
+}
+
+.form {
+  margin-bottom: 2rem;
+}
+.inputGroup {
+  margin-bottom: 1rem;
+}
+.inputGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.inputGroup input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 300ms, transform 300ms;
+}
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.message {
+  margin-top: 1rem;
+  color: #020303;
+  font-weight: bold;
+}
+
+.news {
+  margin-top: 2rem;
+}
+.news h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+.news ul {
+  list-style: none;
+  padding: 0;
+}
+.news ul li {
+  background-color: #0e0afa;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
+.footer {
+  background-color: #0e0afa;
+  color: white;
+  padding: 1rem;
+  border-radius: 0 0 8px 8px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.icon-football {
+  font-size: 3rem;
+  color: #007bff;
+  animation: bounce 0.5s infinite alternate;
+}
+.returnIcon {
+  font-size: 2rem; 
+  cursor: pointer;
+}

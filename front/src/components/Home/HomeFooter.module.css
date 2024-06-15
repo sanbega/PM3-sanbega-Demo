@@ -1,0 +1,24 @@
+.footer {
+    background: linear-gradient(180deg, black 0%, rgb(12, 38, 158) 50%, black 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .socialIcons {
+    margin-top: 20px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: white;
+    display: inline-block;
+  }
+  
+  .icon:hover {
+    color: #000000; 
+  }
+  
